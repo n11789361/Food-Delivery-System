@@ -15,6 +15,23 @@ let server;
 let port;
 
 
+
+describe('Task Tests', function() {
+  let sandbox;
+
+  beforeEach(function() {
+    sandbox = sinon.createSandbox();
+  });
+
+  afterEach(function() {
+    sandbox.restore(); // restores all stubs/spies/mocks
+  });
+
+  it('should create a new task', function() {
+    sandbox.stub(Task, 'create').resolves({ /* mock task */ });
+    // test logic
+  });
+});
 describe('AddTask Function Test', () => {
 
   it('should create a new task successfully', async () => {

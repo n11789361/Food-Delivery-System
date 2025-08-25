@@ -9,7 +9,6 @@
     "dev": "nodemon server.js",
     "prod": "node server.js"
   },
-  
   "dependencies": {
     "bcrypt": "^5.0.1",
     "chai": "^4.5.0",
@@ -26,7 +25,8 @@
     "esm": "^3.2.25",
     "mocha": "^11.0.1",
     "nodemon": "^2.0.15",
-    "sinon": "^19.0.2"
+    "package-name": "^0.1.0",
+    "sinon": "^19.0.5"
   },
   "author": "Task Manager Team",
   "license": "ISC"

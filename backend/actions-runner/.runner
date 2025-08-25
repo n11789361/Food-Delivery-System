@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "VAISHNAVIJOSHY",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus24.actions.githubusercontent.com/Ts9I5YO6UMJGwFLIqwIcDLr9QxNTlcl4qeYp0MDqDAMdHCElvF/",
+  "gitHubUrl": "https://github.com/n11789361/Food-Delivery-System",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
